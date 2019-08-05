@@ -12,7 +12,7 @@ class app():
         master.geometry("215x30")
         self.createButtons()
         self.userTemp = tempfile.gettempdir()
-        self.sysTemp = r"C:\Windows\Temp"
+        self.sysTemp = r"\Windows\Temp"
 
     def createButtons(self):
         cleanBtn = Button(self.master, text="Temizle", command=self.clean)
